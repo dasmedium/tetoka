@@ -1,0 +1,57 @@
+wp_posts,58,post_type,Type,course
+wp_posts,58,post_title,Title,Todo
+wp_posts,58,post_date,Date,"2018-02-05 12:32:41"
+wp_posts,58,post_content,Content,"Enter full description of the course."
+wp_posts,58,post_author,"Author ID",2
+wp_posts,58,post_excerpt,Excerpt,"Enter a short description of the course."
+wp_posts,58,post_status,Status,publish
+wp_posts,58,post_name,Slug,todo
+wp_posts,58,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,58,vibe_course_template,"Vibe course template",hello-template
+wp_postmeta,58,_edit_last," edit last",1
+wp_postmeta,58,_edit_lock," edit lock",1517901734:1
+wp_postmeta,58,_thumbnail_id," thumbnail id",40
+wp_postmeta,58,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,58,vibe_duration,"Total Duration of Course",10
+wp_postmeta,58,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,58,vibe_students,"Total number of Students in Course",0
+wp_postmeta,58,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,58,vibe_course_offline,"Offline Course",H
+wp_postmeta,58,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,58,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,58,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,58,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,58,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,58,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,58,vibe_start_date,"Course Start Date",
+wp_postmeta,58,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,58,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,58,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,58,vibe_course_badge_title,"Badge Title",
+wp_postmeta,58,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,58,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,58,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,58,vibe_course_drip,"Drip Feed",H
+wp_postmeta,58,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,58,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,58,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,58,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,58,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,58,vibe_course_curriculum,"Course Curriculum",
+wp_postmeta,58,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,58,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,58,vibe_forum,"Course Forum",
+wp_postmeta,58,vibe_group,"Course Group",
+wp_postmeta,58,vibe_course_instructions,"Course specific instructions","<img class=""alignnone size-medium wp-image-40"" src=""http://localhost:3277/wp-content/uploads/2018/02/Tetoka-circle-yellow-01-460x460.png"" alt="""" width=""300"" height=""300"" />"
+wp_postmeta,58,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,58,vibe_course_free,"Vibe course free",H
+wp_postmeta,58,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,58,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,58,vibe_pmpro_membership,"Vibe pmpro membership",
+wp_postmeta,58,vibe_product,"Vibe product",
+wp_postmeta,58,vibe_mycred_points,"Vibe mycred points",
+wp_postmeta,58,vibe_mycred_subscription,"Vibe mycred subscription",H
+wp_postmeta,58,vibe_mycred_duration,"Vibe mycred duration",
+wp_postmeta,58,vibe_mycred_duration_parameter,"Vibe mycred duration parameter",1
+wp_postmeta,58,vibe_coming_soon,"Vibe coming soon",H
+wp_postmeta,58,vibe_course_codes,"Vibe course codes"," "

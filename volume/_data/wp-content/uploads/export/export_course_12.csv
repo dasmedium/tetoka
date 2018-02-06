@@ -1,0 +1,12 @@
+wp_posts,58,post_type,Type,course
+wp_posts,58,post_title,Title,Todo
+wp_posts,58,post_date,Date,"2018-02-05 12:32:41"
+wp_posts,58,post_content,Content,"Enter full description of the course."
+wp_posts,58,post_author,"Author ID",2
+wp_posts,58,post_excerpt,Excerpt,"Enter a short description of the course."
+wp_posts,58,post_status,Status,publish
+wp_posts,58,post_name,Slug,todo
+wp_posts,58,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,58,vibe_course_template,"Vibe course template",hello-template
+wp_postmeta,58,_edit_last," edit last",1
+wp_postmeta,58,_edit_lock," edit lock",1517901590:1
