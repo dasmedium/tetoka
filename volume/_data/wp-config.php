@@ -95,7 +95,8 @@ define( 'WP_MEMORY_LIMIT', '96M' );
 // MYCRED DEFAULT LABEL (WHITELABEL)
 define( 'MYCRED_DEFAULT_LABEL', 'Tetoka' );
 
-
+//Force payment Gateway even if no funds
+define( 'SHOW_MYCRED_IN_WOOCOMMERCE', true );
 
 /* That's all, stop editing! Happy blogging. */
 
