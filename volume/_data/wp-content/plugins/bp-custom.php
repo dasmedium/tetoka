@@ -193,6 +193,37 @@ function bpdev_redirect_to_profile( $redirect_to_calculated, $redirect_url_speci
 */
 
 
-// Bank Account
+// Buy Tokas
+
+function add_buy_tokas() {
+        global $bp;
+
+
+        bp_core_new_subnav_item( array(
+                'name'              => 'Buy Tokas',
+                'slug'              => 'buy-tokas',
+                'parent_url'        => trailingslashit( bp_displayed_user_domain() . 'profile' ),
+                'parent_slug'       => 'profile',
+                'screen_function'   => 'account_screen',
+                'position'          => 100,
+                'user_has_access'   => bp_is_my_profile()
+        ) );            
+
+
+}
+add_action( 'bp_setup_nav', 'add_buy_tokas', 100 );
+
+
+
+function buy_screen() {
+    add_action( 'bp_template_content', 'buy_screen_content' );
+    bp_core_load_template( apply_filters( 'bp_core_template_plugin', 'members/single/plugins' ) );
+}
+function buy_screen_content() { 
+        echo do_shortcode( '[myced_buy_form]' );
+}
+
+
+
 
 ?>

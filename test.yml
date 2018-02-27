@@ -1,0 +1,37 @@
+version: '2'
+
+services:
+
+  test:
+    image: dasmedium/wordpress:latest
+    container_name: test
+    restart: unless-stopped
+    depends_on:
+     - tsdb
+    links:
+     - tsdb:mysql
+    ports:
+     - 3277:80
+    environment:
+     WORDPRESS_DB_PASSWORD: 3xtrat3rr3str3
+#     VIRTUAL_HOST: app.tetoka.co
+#     LETSENCRYPT_HOST: app.tetoka.co
+#     LETSENCRYPT_EMAIL: dasmedium.co@gmail.com
+     WORDPRESS_DB_NAME: test1
+#    volumes:
+#     - /home/angelantonio/tetoka/volume/_data:/var/www/html:rw
+  tsdb:
+    image: mysql:5.7
+    container_name: tsdb2
+    restart: unless-stopped
+    environment:
+     MYSQL_ROOT_PASSWORD: 3xtrat3rr3str3
+     MYSQL_DATABASE: test1
+#    volumes:
+#     - /home/angelantonio/tetoka/volume/mysql:/var/lib/mysql:rw   
+
+#networks:
+#  default:
+#    external:
+#      name: 
+

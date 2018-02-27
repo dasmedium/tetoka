@@ -37,3 +37,13 @@ function mycred_pro_change_post_author_on_sale( $reply, $request, $mycred ) {
 
 }
 
+/**
+ * Movie Sell Content Filter
+ * @version 1.0
+ */
+function mycred_pro_run_sale_filter_later( $priority ) {
+
+	return 50;
+
+}
+add_filter( 'mycred_sell_content_priority', 'mycred_pro_run_sale_filter_later' );
